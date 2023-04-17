@@ -10,7 +10,7 @@ body {
 }
 
 
-.container {
+.main {
     background-color: var(--light-gray);
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
 }
 
 
-.main {
+.cart {
     display: flex;
     flex-direction: column;
     // overflow: hidden;

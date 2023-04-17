@@ -9,7 +9,7 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.container {
+.main {
   background-color: var(--light-gray);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,7 +23,7 @@ body {
   height: 100vh;
 }
 
-.main {
+.cart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,21 +37,21 @@ body {
   border-radius: 2rem;
   padding: 1rem;
 }
-.main-container {
+.cart-container {
   border-radius: 1rem;
   overflow: hidden;
 }
-.main-container-img {
+.cart-container-img {
   width: 100%;
   display: block;
 }
-.main-h1 {
+.cart-h1 {
   padding: 0.9rem 0.9rem 0rem;
   font-size: 1.75rem;
   color: var(--dark-blue);
   font-weight: 700;
 }
-.main-p {
+.cart-p {
   padding: 0rem 0.9rem;
   font-size: 1.2rem;
   color: var(--grayish-blue);
