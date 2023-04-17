@@ -11,47 +11,36 @@ body {
 
 .main {
   background-color: var(--light-gray);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
-.cart {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.card {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
   background-color: var(--white);
   width: 23rem;
   border-radius: 2rem;
   padding: 1rem;
 }
-.cart-container {
+.card-container {
   border-radius: 1rem;
   overflow: hidden;
 }
-.cart-container-img {
+.card-container-img {
   width: 100%;
   display: block;
 }
-.cart-h1 {
+.card-h1 {
   padding: 0.9rem 0.9rem 0rem;
   font-size: 1.75rem;
   color: var(--dark-blue);
   font-weight: 700;
 }
-.cart-p {
+.card-p {
   padding: 0rem 0.9rem;
   font-size: 1.2rem;
   color: var(--grayish-blue);
